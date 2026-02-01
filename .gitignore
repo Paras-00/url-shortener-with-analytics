@@ -1,0 +1,17 @@
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# MongoDB local data (VERY IMPORTANT)
+data/
+dump/
+
+# Logs
+*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
