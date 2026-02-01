@@ -1,0 +1,95 @@
+.analytics-view {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.analytics-view.loading,
+.analytics-view.error {
+  text-align: center;
+  color: var(--muted);
+}
+
+.analytics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.analytics-header h2 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.analytics-close {
+  padding: 0.4rem 0.75rem;
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.analytics-close:hover {
+  color: var(--text);
+  border-color: var(--text);
+}
+
+.analytics-summary {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.analytics-section {
+  margin-bottom: 1.25rem;
+}
+
+.analytics-section h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+}
+
+.analytics-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.analytics-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.analytics-list li span {
+  color: var(--text);
+}
+
+.analytics-empty {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0;
+}
